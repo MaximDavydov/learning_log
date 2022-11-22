@@ -19,10 +19,10 @@ def get_position(image: str):
 
 if __name__ == '__main__':
     while True:
-        position = get_position("image.png")
+        position = get_position("/Users/maxim/python_work/learning_log/mouse_move/image.png")
         pag.moveTo(position, duration=0.5)
         # time.sleep(10)
-        position2 = get_position("image2.png")
+        position2 = get_position("/Users/maxim/python_work/learning_log/mouse_move/image2.png")
         pag.moveTo(position2, duration=0.5)
         print(position)
         # time.sleep(10)
